@@ -20,12 +20,17 @@ public class RecordManager<T extends User> {
     {
         records.set(id, user);
     }
+    
     // this is a comment
+    
+    //jdsaf;oijeso;ifaskjlk
     
     void deleteUser(T user)
     {
         records.remove(user);
     }
+    
+    //jlkdsjfa;oijsdlkal
 
     void getDetails(T user) {
         if (user instanceof Student) {
