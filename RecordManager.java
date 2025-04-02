@@ -23,8 +23,6 @@ public class RecordManager<T extends User> {
     
     // this is a comment
     
-    //jdsaf;oijeso;ifaskjlk
-    
     void deleteUser(T user)
     {
         records.remove(user);
