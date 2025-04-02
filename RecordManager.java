@@ -20,7 +20,8 @@ public class RecordManager<T extends User> {
     {
         records.set(id, user);
     }
-
+    // this is a comment
+    
     void deleteUser(T user)
     {
         records.remove(user);
